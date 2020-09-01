@@ -1,8 +1,6 @@
-spring:
-  security:
-    oauth2:
-      client:
-        registration:
-          google:
-              client-id: 460051213529-kpg19pg4eq4pgc0q006hna93ituc9gij.apps.googleusercontent.com
-              client-secret: PZBomS5hXKpe_wVPrsXVU3aX
+okta:
+  oauth2:
+    client-id: 0oaurqe85sprMMhsh4x6
+    client-secret: KHYINUdOYiORzIKXvPdmUcX1J2Pc8cX87xgncjSl
+    redirect-uri: /authorization-code/callback
+    issuer: https://dev-515856.okta.com/oauth2/default
